@@ -1,0 +1,56 @@
+table {
+	color: yellow;
+	border-collapse: collapse;
+	width: 100%;
+	margin: 200px auto;
+
+}
+
+table, th, td {
+	border: 1px solid white;
+	padding: 5px;
+}
+
+th {
+	font-size: 30px;
+	font-weight: bold;
+	font-style: normal;
+}
+
+td {
+	font-size: 25px;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+body {
+	background-image: url('https://i.pinimg.com/originals/7f/e7/74/7fe774bbacce09f00cb5b2e3cbc48db3.png') ;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center;
+}
+
+#name1 {
+	margin-top: 50px;
+}
+
+.input {
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bolder;
+	font-style: italic;
+	margin: 10px;
+}
+
+#submit {
+	width: 100px;
+	height: 35px;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-style: oblique;
+}
+
+h1 {
+	color: turquoise;
+}

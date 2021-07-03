@@ -1,0 +1,128 @@
+.heading {
+	background-color: white;
+	padding: 30px;
+	text-align: center;
+	color: black;
+}
+
+#navbar1 {
+	overflow: -moz-hidden-unscrollable;
+	padding-top: 0px;
+}
+
+body {
+	background-color:black;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: white;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.navbar li a {
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 1px;
+	display: block;
+	padding: 0 22px;
+	font-size: 14px;
+	line-height: 30px;
+	position: relative;
+	
+}
+.navbar li {
+	list-style: none;
+	display: inline-block;
+}
+
+nav {
+	position: relative;
+	padding: 10px 20px;
+	text-align: right;
+	background: #333;
+	margin: 0 auto;
+	width: calc(100% - 30px);
+	z-index: 1;
+}
+.header {
+	width: 15%;
+	float: left;
+	color: #fff;
+	font-size: 25px;
+	text-align: left;
+	padding-left: 2%;
+}
+
+.content {
+	padding: 16px;
+}
+
+.navbar {
+	display: inline;
+}
+
+.navbar li a.active {
+	background-color: floralwhite;
+	color: black;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.sticky + .content {
+	padding-top: 60px;
+}
+
+img#first {
+	width: 500px;
+	height: 600px;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+p#first {
+	font-size: 4vh;
+	font-weight: bolder;
+	font-style: normal;
+	font-family: sans-serif;
+}
+
+p#second {
+	font-size: 3vh;
+	font-weight: lighter;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul#first {
+	font-size: 3vh;
+	font-weight: lighter;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+div#first {
+	text-align: center;
+	background-color:white;
+}
+
+p#third {
+	font-size: 3vh;
+	font-weight: lighter;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}

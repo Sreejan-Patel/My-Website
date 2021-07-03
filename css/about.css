@@ -1,0 +1,52 @@
+
+
+table {
+	width: 100%;
+}
+
+tr {
+	border-style: solid;
+	border-color:white;
+	font-size: xx-large;
+
+}
+
+
+
+td {
+	border-style: solid;
+	border-color:white;
+	font-size: xx-large;
+
+}
+
+th {
+	border-style: solid;
+	border-color: white;
+	font-size: xx-large;
+	font-family: cursive;	
+	font-weight: bolder;
+	text-align: center;
+
+}
+
+p#first1 {
+	text-align: center;
+	font-size: 4vh;
+	font-weight: bolder;
+	font-style: normal;
+	font-family: sans-serif;
+
+}
+
+.hobbies {
+	float: right;
+	width: 60%;
+
+}
+
+.More {
+	float:right;
+	width:70%;
+
+}
